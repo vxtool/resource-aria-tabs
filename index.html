@@ -5,6 +5,30 @@
 		<title>WAI-ARIA Tabs</title>
 	</head>
 	<body>
-		
+		<div class="tabs">
+			<ul class="tabs-list" role="tablist">
+				<li class="tabs-item" role="presentation">
+					<a class="tabs-link" aria-selected="true" aria-controls="content1" tabindex="0" role="tab" href="#content1">Item 1</a>
+				</li>
+				<li class="tabs-item" role="presentation">
+					<a class="tabs-link" aria-controls="content2" tabindex="-1" role="tab" href="#content2">Item 2</a>
+				</li>
+				<li class="tabs-item" role="presentation">
+					<a class="tabs-link" aria-controls="content3" tabindex="-1" role="tab" href="#content3">Item 3</a>
+				</li>
+			</ul>
+			<section class="tabs-content" id="content1" role="tabpanel">
+				<h3 class="tabs-content-title" tabindex="0">Content 1</h3>
+				<p class="tabs-content-text">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+			</section>
+			<section clas="tabs-content" id="content2" aria-hidden="true" role="tabpanel">
+				<h3 class="tabs-content-title" tabindex="0">Content 2</h3>
+				 <p class="tabs-content-text">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+			</section>
+			<section class="tabs-content" id="content3" aria-hidden="true" role="tabpanel">
+				<h3 class="tabs-content-title" tabindex="0">Content 3</h3>
+				<p class="tabs-content-text">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+			</section>
+		</div>
 	</body>
 </html>
