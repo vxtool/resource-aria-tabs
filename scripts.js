@@ -71,6 +71,12 @@
 		this.that.select($current);
 	};
 
+	Tabs.prototype.select = function(activatedElement) {
+		activatedElement.setAttribute('aria-selected', true);
+		activatedElement.setAttribute('tabindex', '0');
+		document.querySelector( '#' + activatedElement.getAttribute('href').substring(1) ).setAttribute('aria-hidden', null);
+	};
+
 })();
 
 
