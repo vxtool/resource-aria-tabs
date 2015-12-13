@@ -77,6 +77,17 @@
 		document.querySelector( '#' + activatedElement.getAttribute('href').substring(1) ).setAttribute('aria-hidden', null);
 	};
 
+	Tabs.prototype.deselect = function() {
+		[].forEach.call(this.$elements, function(element){
+			element.setAttribute('tabindex', '-1');
+			element.setAttribute('aria-selected', null);
+		});
+
+		[].forEach.call(document.querySelectorAll('.tabs-content'), function(element){
+			element.setAttribute('aria-hidden', true);
+		});
+	};
+
 })();
 
 
