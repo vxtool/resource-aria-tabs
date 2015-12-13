@@ -88,6 +88,8 @@
 		});
 	};
 
+	var tabs = new Tabs();
+
 })();
 
 
