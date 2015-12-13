@@ -22,7 +22,15 @@
 		});
 	};
 
+	Tabs.prototype.addEvents = function() {		
+		var elements = this.$elements;
+
+		this.addEventListeners( elements, 'keydown', this.onElementKeydown );
+		this.addEventListeners( elements, 'click', this.onElementClick );		
+	};
+
 	
+
 })();
 
 
