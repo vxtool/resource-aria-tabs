@@ -62,7 +62,14 @@
 		return target;
 	};
 
-	
+	Tabs.prototype.onElementClick = function(event) {
+		event.preventDefault();
+
+		var $current = this.element;
+
+		this.that.deselect();
+		this.that.select($current);
+	};
 
 })();
 
