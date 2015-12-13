@@ -29,6 +29,21 @@
 		this.addEventListeners( elements, 'click', this.onElementClick );		
 	};
 
+	Tabs.prototype.onElementKeydown = function(event) {
+		event.preventDefault();
+		
+		var $current 	= this.element;
+		var $prev 		= this.that.$elements[this.index-1]; //|| this.that.$elements[this.that.$elements.length-1];
+		var $next 		= this.that.$elements[this.index+1]; //|| this.that.$elements[0];
+		var $target 	= this.that.keyActivated(event, $prev, $next);
+
+		if ($target) {
+			this.that.deselect();
+      		this.that.select($target);      		
+		}
+  		
+	};
+
 	
 
 })();
