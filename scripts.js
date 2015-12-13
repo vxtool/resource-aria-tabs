@@ -44,6 +44,24 @@
   		
 	};
 
+	Tabs.prototype.keyActivated = function(event, prev, next) {
+		var target;
+
+		switch (event.keyCode) {
+			case 37:
+				target = prev;
+			break;
+			case 39:
+				target = next;
+			break;
+			default:
+				target = false
+			break;
+		}
+
+		return target;
+	};
+
 	
 
 })();
