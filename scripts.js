@@ -39,7 +39,8 @@
 
 		if ($target) {
 			this.that.deselect();
-      		this.that.select($target);      		
+      		this.that.select($target); 
+      		$target.focus();     		
 		}
   		
 	};
