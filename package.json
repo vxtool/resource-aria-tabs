@@ -1,0 +1,29 @@
+{
+  "name": "resource-aria-tabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tabsTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descco/resource-aria-tabs.git"
+  },
+  "keywords": [
+    "aria",
+    "tabs"
+  ],
+  "author": "Hemerson Vianna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/descco/resource-aria-tabs/issues"
+  },
+  "homepage": "https://github.com/descco/resource-aria-tabs#readme",
+  "devDependencies": {
+    "should": "^8.0.1"
+  }
+}
