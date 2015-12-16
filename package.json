@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha tests/tabsTest.js"
+    "test": "mocha test/tabsTest.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/descco/resource-aria-tabs#readme",
   "devDependencies": {
-    "should": "^8.0.1"
+    "jsdom": "^7.2.1",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0"
   }
 }
