@@ -26,7 +26,7 @@ npm test
 
 ## Log
 
-Check [Releases](https://github.com/brazilian-dev/the-project/releases) for detailed changelog.
+Check [Releases](https://github.com/resource-solutions/resource-aria-tabs/releases) for detailed changelog.
 
 ## License
 
