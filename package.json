@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descco/resource-aria-tabs.git"
+    "url": "git+https://github.com/descco-tools/resource-aria-tabs.git"
   },
   "keywords": [
     "aria",
@@ -20,9 +20,9 @@
   "author": "Hemerson Vianna",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/descco/resource-aria-tabs/issues"
+    "url": "https://github.com/descco-tools/resource-aria-tabs/issues"
   },
-  "homepage": "https://github.com/descco/resource-aria-tabs#readme",
+  "homepage": "https://github.com/descco-tools/resource-aria-tabs#readme",
   "devDependencies": {
     "jsdom": "^7.2.1",
     "mocha": "^2.3.4",

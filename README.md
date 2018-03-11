@@ -3,8 +3,8 @@
 Use the keyboard or mouse.
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/resource-solutions/resource-aria-tabs.svg?style=flat-square)](https://github.com/resource-solutions/resource-aria-tabs/issues)
-[![devDependency Status](https://david-dm.org/resource-solutions/resource-aria-tabs/dev-status.svg)](https://david-dm.org/resource-solutions/resource-aria-tabs#info=devDependencies)
+[![issues](https://img.shields.io/github/issues/descco-tools/resource-aria-tabs.svg?style=flat-square)](https://github.com/descco-tools/resource-aria-tabs/issues)
+[![devDependency Status](https://david-dm.org/descco-tools/resource-aria-tabs/dev-status.svg)](https://david-dm.org/descco-tools/resource-aria-tabs#info=devDependencies)
 
 ## Instalation
 ```
@@ -26,7 +26,7 @@ npm test
 
 ## Log
 
-Check [Releases](https://github.com/resource-solutions/resource-aria-tabs/releases) for detailed changelog.
+Check [Releases](https://github.com/descco-tools/resource-aria-tabs/releases) for detailed changelog.
 
 ## License
 
