@@ -3,8 +3,12 @@
 Use the keyboard or mouse.
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/descco-tools/resource-aria-tabs.svg?style=flat-square)](https://github.com/descco-tools/resource-aria-tabs/issues)
-[![devDependency Status](https://david-dm.org/descco-tools/resource-aria-tabs/dev-status.svg)](https://david-dm.org/descco-tools/resource-aria-tabs#info=devDependencies)
+[![GitHub issues](https://img.shields.io/github/issues/org-victorinox/resource-aria-tabs.svg)](https://github.com/org-victorinox/resource-aria-tabs/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/org-victorinox/resource-aria-tabs.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-victorinox/resource-aria-tabs.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-victorinox/resource-aria-tabs.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/resource-aria-tabs.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/resource-aria-tabs/total.svg)
 
 ## Instalation
 ```
@@ -26,7 +30,7 @@ npm test
 
 ## Log
 
-Check [Releases](https://github.com/descco-tools/resource-aria-tabs/releases) for detailed changelog.
+Check [Releases](https://github.com/org-victorinox/resource-aria-tabs/releases) for detailed changelog.
 
 ## License
 
